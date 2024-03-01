@@ -1,0 +1,406 @@
+.Container {
+  /* width: 40%; */
+  background-color: #eef2f5;
+  padding: 1rem;
+
+  border-radius: 8px;
+    overflow-y: auto; 
+  /* Enable horizontal
+   scrolling */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Title {
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 1rem;
+}
+.wrapboth{
+  display: flex;
+  gap: 0.6rem;
+  
+}
+.plus_box{
+  width: 100%;
+}
+.sub_container{
+
+}
+
+.confirmation {
+  align-items: center;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, .4);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+
+}
+.Calendar{
+  display: flex;
+  align-items: center;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, .4);
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+.background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 60vh;
+  margin-top: 100px;
+  width: 44%;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+
+.imageButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.image {
+  width: 25px;
+  /* Adjust size as needed */
+  height: 25px;
+  /* Adjust size as needed */
+}
+
+.plus {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 25px;
+  height: 32px;
+}
+
+/* Todo.module.css */
+
+
+
+
+
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 40vh;
+  /* gap: 1rem; */
+}
+
+
+.wrapping2 {
+  display: flex;
+  padding-bottom: 0.5rem;
+}
+
+.heading {
+  font-weight: bold;
+
+}
+.rectanglebox2 {
+  border-radius: 4px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 83vh;
+}
+
+
+.star2 {
+  color: red;
+}
+
+
+.boxy {
+  display: flex;
+  align-items: center;
+ padding-top: 1rem;
+justify-content: space-between;
+
+}
+
+.boxy2 {
+  display: flex;
+  
+}
+
+
+.button11 {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;  
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #E2E2E2;
+  padding: 0.3rem;
+  height: 3.5vh;
+  
+}
+.buttontext{
+  font-size: 10px;
+}
+.imagee{
+  padding-right: 0.5em;
+}
+
+/* .button12 {
+  border-radius: 5px;
+  
+  display: flex;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid black;
+}
+
+.button13 {
+  border-radius: 5px;
+  display: flex;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid black;
+} */
+
+.updatedpage{
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  
+}
+
+
+
+.updated-task-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  /* Hide the default checkbox */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  outline: none;
+  border: 1px solid black; /* Add border */
+  cursor: pointer;
+  width: 16px; /* Adjust width if needed */
+  height: 16px; /* Adjust height if needed */
+  background-color: white; /* Set background color */
+  border-radius: 4px; /* Add border radius for rounded corners */
+  
+}
+
+.checkbox:checked {
+  /* Style for checked state */
+  background-color: red; /* Same as background color */
+}
+
+.checkbox::before {
+  /* Style the checkbox tick */
+  content: '';
+  display: block;
+  width: 8px; /* Adjust width of the tick */
+  height: 8px; /* Adjust height of the tick */
+  border: solid black; /* Set tick color */
+  border-width: 0 2px 0px 0px; /* Adjust tick thickness and angle */
+  transform: rotate(45deg); /* Rotate the tick */
+  visibility: hidden; /* Hide the tick by default */
+}
+
+.checkbox:checked::before {
+  /* Show the tick when checkbox is checked */
+  visibility: visible;
+}
+
+
+.taskInput {
+  flex: 1;
+  /* Takes remaining space */
+  border: none;
+  outline: none;
+}
+
+.delete_button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  /* padding-left: 390px; */
+}
+
+.remo {
+  width: 15px;
+  height: 15px;
+}
+
+.addition_btn {
+  display: flex;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  padding-top: 0.5rem;
+  overflow-y: auto;
+}
+
+.addition_btn_img {
+  /* padding-right: 1rem; */
+}
+
+.heady {
+  color: #767575;
+  
+}
+
+
+
+.checklist{
+  /* margin-top: 1.5rem; */
+}
+
+.heading2{
+  font-weight: bold;
+}
+
+.wrapping21 {
+  display: flex;
+  /* padding-bottom: 0.5rem; */
+  font-weight: bold;
+}
+
+.rectangleBox{
+  display: flex;
+  align-items: center;
+  border: 1px solid #E2E2E2;
+  border-radius: 6px;
+  padding: 3px;
+  width: 100%;
+  overflow-y: auto;
+  gap: 0.5rem;
+}
+.updatedtaskcontainer{
+  display: flex;
+}
+
+.btn11{
+  background-color: #17A2B8;
+  width: 50%;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  height: 40px;
+  /* margin-bottom: 1rem; */
+  
+}
+.btn12{
+  border-radius: 10px;
+  border: 1px solid red;
+  color: red;
+  background-color: white;
+width: 50%;
+  font-weight: bold;
+  cursor: pointer;
+  height: 40px;
+  
+}
+
+.btn13{
+  border-radius: 10px;
+  border: 1px solid #E2E2E2;
+  color: #707070;
+  background-color: white;
+  width: 30%;
+  font-weight: bold;
+  cursor: pointer;
+  height: 40px;
+  
+}
+.wrapping5{
+  display: flex;
+  justify-content: space-between;
+  /* padding-top: 6rem; */
+}
+.wrapping6{
+display: flex;
+width: 50%;
+gap: 1rem;
+}
+
+
+/*todosubcompo styling */
+
+.container3{
+  
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 20vh;
+  border-radius: 10px;
+  background-color: white;
+}
+.container4{
+ display: flex;
+ justify-content: space-between;
+ padding: 17px;
+}
+.priorityhere{
+
+}
+.threedot{
+  border: none; 
+  background-color: transparent; 
+  cursor: pointer; 
+  outline: none; 
+}
+.titlehere{
+  padding-left: 17px;
+}
+
+
+.container5{
+  display: flex;
+  justify-content: space-between;
+  padding: 17px;
+}
+.dropdown{
+  border: none; 
+  background-color: transparent; 
+  cursor: pointer; 
+  outline: none; 
+ 
+}
+.container6{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container7{
+  display: flex;
+}
+
+.toDoCardGap {
+  margin-bottom: 1rem;
+}

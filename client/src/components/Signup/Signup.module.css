@@ -1,0 +1,89 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.register_heading{
+
+  padding-bottom: 1.5rem;
+  
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.formitFieldWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 15px;  
+}
+
+.inputWrapper {
+  
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* margin-bottom: 15px;   */
+  padding: 5px;
+ 
+  
+}
+
+.inputWrapper img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.inputWrapper input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+.eyeIcon {
+  width: 20px;
+  cursor: pointer;
+}
+
+.registerButton {
+  width: 400px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #17a2b8;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+ 
+}
+
+.registerButton:hover {
+  background-color: #126e84;
+}
+
+.noAccountText{
+ 
+  color: #828282;
+  
+}
+
+.error {
+  color: #DB371F;
+}

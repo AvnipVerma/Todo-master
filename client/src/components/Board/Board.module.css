@@ -1,0 +1,59 @@
+
+.date {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+    font-size: 18px;
+}
+
+.filterDropdown {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    margin: 0;
+    border-color: white;
+}
+
+.dropdown{
+    
+}
+
+.filterDropdown select {
+    box-shadow: none;
+    border-color: white;
+    
+}
+
+.scrollbar {
+    position: fixed;
+    top: calc(100% - 20px);
+    width: 100%;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 0;
+}
+
+.styles_sectionContainer {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.styles_section {
+    flex: 1;
+    height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+.styles_freezeContent {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+}

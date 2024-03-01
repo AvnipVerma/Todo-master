@@ -1,0 +1,39 @@
+.Container {
+  /* width: 40%; */
+  background-color: #eef2f5;
+  padding: 1rem;
+  overflow-x: auto;
+  height: 100%;
+  /* Enable horizontal scrolling */
+  border-radius: 8px;
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.Title {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.imageButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.image {
+  width: 25px;
+  /* Adjust size as needed */
+  height: 26px;
+  /* Adjust size as needed */
+}
+
+.toDoCardGap {
+  margin-bottom: 1rem;
+}
